@@ -1,0 +1,66 @@
+# Environment variables
+.env
+.env.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Java/Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+*.log
+
+# Database
+*.sql~
+*.sqlite
+*.db
+
+# Misc
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
