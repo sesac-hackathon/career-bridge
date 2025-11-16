@@ -1,0 +1,2 @@
+-- PostgreSQL initialization script
+-- TODO: Add database schema
