@@ -1,2 +1,15 @@
 # GitHub Actions Deployment Workflow
 # TODO: Configure deployment
+# Temporarily disabled - implementation in progress
+
+name: Deploy
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "Deployment workflow is temporarily disabled during implementation"
